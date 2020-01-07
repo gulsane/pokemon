@@ -15,20 +15,22 @@
   font-family: sans-serif;
   font-weight: 400;
   font-size: 20px;
+  color: rgb(100, 100, 100);
   text-align: center;
+  padding-bottom:10px;
+  border-bottom: 1px solid rgb(200, 200, 200,0.5);
 }
 
 .image_layout{
-  border: solid black;
+  border: 1px solid rgb(200,200,200,0.5);
   border-radius: 10px;
-  border-block-end-width: 1.2px;
-  border-block-start-width: 1.2px;
-  margin: 10px 0px 10px 0px;
+  margin: 10px 0px;
 }
 
 .image_layout:hover{
-  transition-property: background;
+  transition-property:background,opacity;
   transition-duration: 0.5s;
   transition-timing-function: linear;
-  background: #ebb490;
+  background: rgba(78, 74, 74, 0.2);
+  cursor: pointer;
 }
